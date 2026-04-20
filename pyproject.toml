@@ -1,0 +1,16 @@
+[project]
+name = "semantic-network-agent"
+version = "0.1.0"
+description = "Agente Inteligente basado en Redes Semánticas para Recomendación Musical"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "hypothesis",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
